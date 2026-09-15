@@ -1,0 +1,15 @@
+--- a/webview/assets/app-initial-236e1501144c.js
++++ b/webview/assets/app-initial-236e1501144c.js
+@@ -131553,11 +131553,3 @@
+ function lZt(e, t) {
+-  if (e !== `electron`) return `native`;
+-  switch (t) {
+-    case `win32`:
+-    case `linux`:
+-      return `application-menu`;
+-    case `darwin`:
+-    case `unknown`:
+-      return `native`;
+-  }
++  return `native`;
+ }

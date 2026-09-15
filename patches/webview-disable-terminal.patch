@@ -1,0 +1,7 @@
+--- a/webview/assets/local-conversation-thread-9a0a61c5e076.js
++++ b/webview/assets/local-conversation-thread-9a0a61c5e076.js
+@@ -11923,3 +11923,1 @@
+-              onShowTerminal: (e) => {
+-                am(_, e, G);
+-              },
++              onShowTerminal: () => {},

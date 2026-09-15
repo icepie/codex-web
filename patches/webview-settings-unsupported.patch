@@ -1,0 +1,9 @@
+--- a/webview/assets/use-visible-settings-sections-7c6ce932750b.js
++++ b/webview/assets/use-visible-settings-sections-7c6ce932750b.js
+@@ -686,4 +686,4 @@
+             case `computer-use`:
+-              return W;
++              return !1;
+             case `browser-use`:
+-              return G;
++              return !1;

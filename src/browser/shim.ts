@@ -396,6 +396,18 @@ electronShim.overrideAdapter = {
       };
     }
 
+    if (
+      evaluation.name === "2982604767" ||
+      evaluation.name === "370972467" ||
+      evaluation.name === "1256703444" ||
+      evaluation.name === "88729972"
+    ) {
+      return {
+        ...evaluation,
+        value: false,
+      };
+    }
+
     return null;
   },
 };

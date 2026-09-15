@@ -42,4 +42,7 @@ patch --batch --forward --strip 1 --directory scratch/asar < patches/preload-dis
 patch --batch --forward --strip 1 --directory scratch/asar < patches/webview-safe-header-left.patch
 patch --batch --forward --strip 1 --directory scratch/asar < patches/app-host-json-rpc.patch
 patch --batch --forward --strip 1 --directory scratch/asar < patches/app-host-browser-windows.patch
+patch --batch --forward --strip 1 --directory scratch/asar < patches/webview-browser-capabilities.patch
+patch --batch --forward --strip 1 --directory scratch/asar < patches/webview-settings-unsupported.patch
+patch --batch --forward --strip 1 --directory scratch/asar < patches/webview-disable-terminal.patch
 rm -rf scratch/asar/node_modules/better-sqlite3
