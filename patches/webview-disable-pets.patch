@@ -1,0 +1,6 @@
+--- a/webview/assets/use-visible-settings-sections-7c6ce932750b.js
++++ b/webview/assets/use-visible-settings-sections-7c6ce932750b.js
+@@ -698,2 +698,3 @@
+             case `pets`:
++              return !1;
+             case `git-settings`:

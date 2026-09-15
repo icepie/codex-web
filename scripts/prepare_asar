@@ -45,4 +45,5 @@ patch --batch --forward --strip 1 --directory scratch/asar < patches/app-host-br
 patch --batch --forward --strip 1 --directory scratch/asar < patches/webview-browser-capabilities.patch
 patch --batch --forward --strip 1 --directory scratch/asar < patches/webview-settings-unsupported.patch
 patch --batch --forward --strip 1 --directory scratch/asar < patches/webview-disable-terminal.patch
+patch --batch --forward --strip 1 --directory scratch/asar < patches/webview-disable-pets.patch
 rm -rf scratch/asar/node_modules/better-sqlite3
